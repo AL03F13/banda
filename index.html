@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+ 
+  <title>Mi aplicacion</title>
+
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/my_tema_tres.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" /> 
+        
+        
+
+
+  <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/acciones.js" type="text/javascript"></script>
+  <!-- <script src="phonegap.js" type="text/javascript"></script> -->
+ </head>
+
+ <body>
+ <!-- Principal -->
+ <div data-role="page" id="principal" >   
+  <div data-role="header">
+    <h1>CALIBRE 50</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+     <div align="center">
+    <div style="width:50%" data-role="controlgroup" data-type="vertical">
+     <a href="#mypanel" id="botonmenu" class="ui-btn">MENU</a>
+    </div>
+    <h2 style="text-align:justify">Esta aplicación está desarrollada para conocer un poco de esta agrupación conocida como CALBRE 50; Conocer su historia y sus más grandes éxitos</h2>
+   </div>
+   <div data-role="panel" id="mypanel" data-display="overlay">
+     <a href="#biogcalibre" id="" class="ui-btn">BIOGRAFIA</a>
+     <a href="#imgcalibre" id="" class="ui-btn">IMAGENES</a>
+     <a href="#datos" id="" class="ui-btn">DATOS</a>
+     <a href="#exitos" id="" class="ui-btn">EXITOS</a>
+     <a href="#discografia" id="" class="ui-btn">DISCOGRAFIA</a>
+     <a href="#agrupaciones" id="" class="ui-btn">OTRAS AGRUPACIONES</a>
+   </div>
+
+  </div>
+
+  <div data-role="footer">
+    <h1>@ERIC</h1>
+  </div>
+ </div>  
+ <!-- Principal -->
+ 
+ <!-- biografia-calibre -->
+ <div data-role="page" id="biogcalibre" >   
+  <div data-role="header">
+   
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <h1 align="center" style="background-color:#F30">CALIBRE 50</h1>
+    <div style="background-color:#FFC">
+    <p>La agrupación Calibre 50 es una banda originaria de Mazatlán, Sinaloa, México, que fue creada en el año 2010. Su estilo fresco y novedoso se logra con una fusión de instrumentos característicos de su estado, la tuba, la guitarra doceava, e integrando el acordeón y la batería.
+
+La agrupación integrada por cuatro jóvenes talentos, debe su nombre gracias a la idea de querer tener algo que los identificara, un nombre impactante y que demostrara que nada podía detener su camino y sus sueños. Calibre 50, la bala que ni el mejor blindaje la detiene, es como ellos se considran a sí mismos. Una fuerza con un sueño que alcanzar y que sólo Dios y el público pueden detener.
+
+La agrupación trabajó para lograr su sueño musical durante mucho tiempo, cantando en todo tipo de eventos, es por ello que el público los conoció con temas como “Hotel El Cid”. Incluido en el material del mismo nombre, y el cual les abrió las puertas a escenarios más importantes. Posteriormente llegaría su material titulado “SUEÑO GUAJIRO” y “RENOVAR O MORIR”.
+
+Para cerrar el 2010, Calibre 50 lanza al mercado su álbum “RENOVAR O MORIR”, del cual promocionaron el tema “El infiernito”, un corrido de la autoría de Javier González “El tamarindo” y que forma parte del género musical que les caracteriza. Paralelo a este tema, lanzaron también "Culiacán vs Mazatlán", ambos están sonando fuertemente en la radio mexicana y americana, y han permitido que la agrupación esté ocupando un lugar importante entre los favoritos del público.
+
+Aunque el género que los identifica es el corrido, CALIBRE 50 interpreta también cumbias, rancheras, charangas, polkas y chicoteadas.
+
+Calibre 50 es integrado por Edén Muñoz, primer voz y acordeón y Armando Ramos, segunda voz y guitarra doceava, uniéndose a las filas de Calibre Alejandro Gaxiola, en la Tuba y Erick García en la Batería.
+
+El grupo Calibre 50 ha cosechado éxitos, entre los que se encuentran Premios en el mundo musical, Records de audiencia, invitaciones a eventos en los que solo los mejores expositores del Género Regional Mexicano pueden estar presentes, demostrando su calidad de músicos y compositores. Calibre 50 se ha convertido en sinónimo de éxito, pues gracias al esfuerzo, disciplina, trabajo diario y la pasión por la música estos 4 jóvenes han obtenido su recompensa, y día a día trabajan para ser mejores para su público y demostrarles que el lugar en donde están se gana a base de sacrificio y esfuerzo. Ellos logran convocar al público con el poder de su música, los cautivan con su carisma y sencillez, haciendo que cada una de sus presentaciones sean inolvidables para los asistentes, que las llenan en su totalidad.
+</p>
+    </div>
+  </div>
+
+  <div data-role="footer">
+    <div align="center">
+     <a href="#principal" class="ui-btn ui-shadow ui-btn-corner-all ui-btn-inline">INICIO</a>
+    </div>
+  </div>
+ </div>  
+ <!-- biografia-calibre  -->
+ 
+
+ 
+ <!-- IAGENES-CALIBRE -->
+ <div data-role="page" id="imgcalibre" >   
+  <div data-role="header">
+    <h1>IMAGENES</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+   <div align="center">
+     <a href="#calibre-A" data-rel="popup" data-position-to="window" data-transition="fade">
+      <img src="calibre1.jpg" style="width:15%;">
+     </a>
+      <div data-role="popup" id="calibre-A" data-overlay-theme="b" data-theme="b" data-corners="false">
+      <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+      <img src="calibre1.jpg" style="max-height:1000px">
+     </div>
+    
+     <a href="#calibre-B" data-rel="popup" data-position-to="window" data-transition="fade">
+      <img src="calibre3.jpg" style="width:15%;">
+     </a>
+      <div data-role="popup" id="calibre-B" data-overlay-theme="b" data-theme="b" data-corners="false">
+      <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+      <img src="calibre3.jpg" style="max-height:1000px">
+     </div>
+    
+     <a href="#calibre-C" data-rel="popup" data-position-to="window" data-transition="fade">
+      <img src="calibre4.jpg" style="width:15%;">
+     </a>
+      <div data-role="popup" id="calibre-C" data-overlay-theme="b" data-theme="b" data-corners="false">
+      <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+      <img src="calibre4.jpg" style="max-height:500px">
+     </div>
+    
+     <a href="#calibre-D" data-rel="popup" data-position-to="window" data-transition="fade">
+      <img src="calibre5.jpg" style="width:15%;">
+     </a>
+      <div data-role="popup" id="calibre-D" data-overlay-theme="b" data-theme="b" data-corners="false">
+      <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+      <img src="calibre5.jpg" style="max-height:1000px">
+     </div>
+     
+     <a href="#calibre-E" data-rel="popup" data-position-to="window" data-transition="fade">
+      <img src="c1.jpg" style="width:15%;">
+     </a>
+      <div data-role="popup" id="calibre-E" data-overlay-theme="b" data-theme="b" data-corners="false">
+      <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+      <img src="c1.jpg" style="max-height:1000px">
+     </div>
+     
+     <a href="#calibre-F" data-rel="popup" data-position-to="window" data-transition="fade">
+      <img src="c3.jpg" style="width:15%;">
+     </a>
+      <div data-role="popup" id="calibre-F" data-overlay-theme="b" data-theme="b" data-corners="false">
+      <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+      <img src="c3.jpg" style="max-height:1000px">
+     </div>
+     
+     <a href="#calibre-G" data-rel="popup" data-position-to="window" data-transition="fade">
+      <img src="c2.jpg" style="width:15%;">
+     </a>
+      <div data-role="popup" id="calibre-G" data-overlay-theme="b" data-theme="b" data-corners="false">
+      <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+      <img src="c2.jpg" style="max-height:1000px">
+     </div>
+     
+     <a href="#calibre-H" data-rel="popup" data-position-to="window" data-transition="fade">
+      <img src="c5.jpg" style="width:15%;">
+     </a>
+      <div data-role="popup" id="calibre-H" data-overlay-theme="b" data-theme="b" data-corners="false">
+      <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+      <img src="c5.jpg"style="max-height:1000px">
+     </div>
+     
+     <a href="#calibre-I" data-rel="popup" data-position-to="window" data-transition="fade">
+      <img src="c4.jpg" style="width:15%;">
+     </a>
+      <div data-role="popup" id="calibre-I" data-overlay-theme="b" data-theme="b" data-corners="false">
+      <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+      <img src="c4.jpg" style="max-height:1000px">
+     </div>
+     
+     <a href="#calibre-J" data-rel="popup" data-position-to="window" data-transition="fade">
+      <img src="c6.jpg" style="width:15%;">
+     </a>
+      <div data-role="popup" id="calibre-J" data-overlay-theme="b" data-theme="b" data-corners="false">
+      <a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right"></a>
+      <img src="c6.jpg" style="max-height:1000px">
+     </div>
+     
+    </div>
+  </div>
+
+  <div data-role="footer">
+   <div align="center">
+    <a href="#principal" class="ui-btn ui-shadow ui-btn-corner-all ui-btn-inline">INICIO</a>
+   </div>
+  </div>
+ </div>  
+ <!-- IAGENES-CALIBRE -->
+ 
+  <!-- datos -->
+ <div data-role="page" id="datos" >   
+  <div data-role="header">
+    <h1>Datos</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <div align="center">
+     <h2>Origen:</h2>
+     <p>Mazatlán, Sinaloa, México</p>
+     <h2>Género(s):</h2>
+     <p>Corridos, cumbia, ranchera, charanga, regional, polka y chicoteadas</p>
+     <h2>Actividad:</h2>
+     <p>2010 - Actualidad</p>
+     <h2>Instrumentos:</h2>
+     <p>Voz, Guitarra, Bateria, Trompeta</p>
+     <h2>Página Oficial:</h2>
+     <p>calibre50.com</p>
+     <h2>Twitter:</h2>
+     <p>@Calibre50_mx</p>
+     <h2>Integrantes:</h2>
+     <h3>Edén Muñoz</h3>
+     <h3>Armando Ramos</h3>
+     <h3>Alejandro Gaxiola</h3>
+     <h3>Erick García</h3>
+    </div>
+  </div>
+
+  <div data-role="footer">
+   <div align="center">
+    <a href="#principal" class="ui-btn ui-shadow ui-btn-corner-all ui-btn-inline">INICIO</a>
+   </div>
+  </div>
+ </div>  
+ <!-- datos -->
+ 
+ <!-- exitos -->
+ <div data-role="page" id="exitos" >   
+  <div data-role="header">
+    <h1>EXITOS</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+   <div align="center">
+    <h2>EL BUEN EJEMPLO</h2>
+    <audio controls>
+     <source src="003 El Buen Ejemplo ...CALIBRE 50(Studio) 2012.mp3" type="audio/ogg">  
+    </audio>
+    <h2>SUEÑO GUAJIRO</h2>
+    <audio controls>
+     <source src="Calibre 50   Sueño Guajiro.mp3" type="audio/ogg">  
+    </audio>
+    <h2>ESCUELA DEL VIRUS ANTRAX</h2>
+    <audio controls>
+     <source src="la escuela del virus antrax-calibre 50.mp3" type="audio/ogg">  
+    </audio>
+    <h2>EL NIÑO SICARIO</h2>
+    <audio controls>
+     <source src="005 EL NIÑO SICARIO_CALIBRE 50.mp3" type="audio/ogg">  
+    </audio>
+    <h2>LA PROPUESTA</h2>
+    <audio controls>
+     <source src="Calibre 50    La Propuesta 2013 (Corridos de Alto Calibre).mp3" type="audio/ogg">  
+    </audio>
+    <h2>BOHEMIO LOCO</h2>
+    <audio controls>
+     <source src="Calibre 50   Bohemio Loco.mp3" type="audio/ogg">  
+    </audio>
+    <h2>CONTIGO</h2>
+    <audio controls>
+     <source src="Calibre 50   Contigo (ESTRENO 2014).mp3" type="audio/ogg">  
+    </audio>
+    <h2>EL VIEJO</h2>
+    <audio controls>
+     <source src="El Viejo   Calibre 50 Letra [2013].mp3" type="audio/ogg">  
+    </audio>
+    <h2>QUE TIENE DE MALO</h2>
+    <audio controls>
+     <source src="Calibre 50 ft Komander Que Tiene De Malo (Video Oficial) Estreno CD Contigo 2014!!!!.mp3" type="audio/ogg">  
+    </audio>
+    <h2>CULIACÁN VS MAZATLÁN</h2>
+    <audio controls>
+     <source src="500 Caballos De Fuerza.mp3" type="audio/ogg">  
+    </audio>
+   </div>
+  </div>
+
+  <div data-role="footer">
+   <div align="center">
+    <a href="#principal" class="ui-btn ui-shadow ui-btn-corner-all ui-btn-inline">INICIO</a>
+   </div>
+  </div>
+ </div>  
+ <!-- exitos -->
+ 
+  <!-- OTROS -->
+ <div data-role="page" id="agrupaciones" >   
+  <div data-role="header">
+    <h1>OTRAS AGRUPACIONES</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+     <a href="#TRA" id="" class="ui-btn">LA TRAKALOSA</a>
+     <a href="#sonido" id="" class="ui-btn">SONIDO SAMURAI</a>
+  </div>
+
+  <div data-role="footer">
+   <div align="center">
+    <a href="#principal" class="ui-btn ui-shadow ui-btn-corner-all ui-btn-inline">INICIO</a>
+   </div>
+  </div>
+ </div>  
+ <!-- OTROS -->
+ 
+ <!-- Principal -->
+ <div data-role="page" id="TRA" >   
+  <div data-role="header">
+    <h1>LA TRAKALOSA</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+   <div align="center">
+    <h2>Tatuado Hasta Los Huesos</h2>
+    <audio controls>
+     <source src="Banda La Trakalosa   Tatuado Hasta Los Huesos (Video Oficial).mp3" type="audio/ogg">  
+    </audio>
+    <h2>Broche de oro</h2>
+    <audio controls>
+     <source src="La Trakalosa de Monterrey   Broche de oro (Video Oficial).mp3" type="audio/ogg">  
+    </audio>
+    <h2>Como los gatos</h2>
+    <audio controls>
+     <source src="Xitlali Sarmiento   Como los gatos ft La Trakalosa de Monterrey (Video Oficial).mp3" type="audio/ogg">  
+    </audio>
+   </div>
+  </div>
+
+  <div data-role="footer">
+   <div align="center">
+    <a href="#principal" class="ui-btn ui-shadow ui-btn-corner-all ui-btn-inline">INICIO</a>
+    <a href="#agrupaciones" class="ui-btn ui-shadow ui-btn-corner-all ui-btn-inline">VOLVER</a>
+   </div>
+  </div>
+ </div>  
+ <!-- Principal -->
+ 
+ <!-- Principal -->
+ <div data-role="page" id="sonido" >   
+  <div data-role="header">
+    <h1>SONIDO SAMURAI</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <div align="center">
+    <h2>CUMBIA ATREVIDA</h2>
+    <audio controls>
+     <source src="Sonido Samurai Cumbia Atrevida 1er Aniv Grillos San Diego Acapulco 19 Junio 2010.mp3" type="audio/ogg">  
+    </audio>
+    <h2>EL LLANTO DE LOS LUCEROS</h2>
+    <audio controls>
+     <source src="el llanto de los luceros   sonido samuraiwmv.mp3" type="audio/ogg">  
+    </audio>
+    <h2>AMORES FINGIDOS</h2>
+    <audio controls>
+     <source src="Sonido Samurai    Amor Fingido.mp3" type="audio/ogg">  
+    </audio>
+   </div>
+  </div>
+
+  <div data-role="footer">
+   <div align="center">
+    <a href="#principal" class="ui-btn ui-shadow ui-btn-corner-all ui-btn-inline">INICIO</a>
+    <a href="#agrupaciones" class="ui-btn ui-shadow ui-btn-corner-all ui-btn-inline">VOLVER</a>
+   </div>
+  </div>
+ </div>  
+ <!-- Principal -->
+ 
+ <!-- Principal -->
+ <div data-role="page" id="discografia" >   
+  <div data-role="header">
+    <h1>DISCOGRAFIA</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+   <div align="center">
+    <h1 style=" background-color:#F66">Corridos de Alto Calibre</h1>
+    <h3>El Zorro</h3>
+    <h3>Gente del Diablo</h3>
+    <h3>Javier el de los Llanos</h3>
+    <h3>La Propuesta</h3>
+    <h3>No es lo que quería</h3>
+    <h3>Se quedaron a tres pasos</h3>
+    <h3>Código 375</h3>
+    <h3>Comencé de cero</h3>
+    <h3>Corrido de feliciano</h3>
+    <h3>El Especial</h3>
+    <h3>El amigo</h3>
+    <h3>El P90</h3>
+    <h3>El Inmigrante</h3>
+    
+    <h1 style=" background-color:#F66">La Recompensa</h1>
+    <h3>Cuando te tuve en 20</h3>
+    <h3>A ti te conviene</h3>
+    <h3>Aquí estoy</h3>
+    <h3>La recompensa</h3>
+    <h3>Cuando el sol se va</h3>
+    <h3>Ni que estuvieras tan buena</h3>
+    <h3>Las sobras</h3>
+    <h3>La vida después de ti</h3>
+    <h3>El viejo</h3>
+    <h3>Entre la vida y la muerte</h3>
+   
+    <h1 style=" background-color:#F66">El Buen Ejemplo</h1>
+    <h3>El teniente fantasma</h3>
+    <h3>Gente Batallosa</h3>
+    <h3>El Buen Ejemplo</h3>
+    <h3>Lagrimas</h3>
+    <h3>Mujer de todos mujer de nadie</h3>
+    <h3>Niño sicario</h3>
+    <h3>Aguaje activado</h3>
+    <h3>Al revés</h3>
+    <h3>Bohemio loco</h3>
+    <h3>El burro</h3>
+    <h3>SUEÑO GUAJIRO</h3>
+   
+    <h1 style=" background-color:#F66">Renovar o Morir</h1>
+    <h3>El Infiernito</h3>
+    <h3>Callejero y Mujeriego</h3>
+    <h3>La Cumbia del Pistolero</h3>
+    <h3>Sangre Nueva</h3>
+    <h3>El Manguera</h3>
+    <h3>El Pescado</h3>
+    <h3>Ajustes Inzunza</h3>
+    <h3>Renovar o Morir</h3>
+    <h3>El Niño VZ</h3>
+    <h3>Culiacán Vs. Mazatlán</h3>
+    <h3>Polvo y Nada</h3>
+    <h3>Plebada Alterada</h3>
+    
+   </div>
+  </div>
+
+  <div data-role="footer">
+   <div align="center">
+    <a href="#principal" class="ui-btn ui-shadow ui-btn-corner-all ui-btn-inline">INICIO</a>
+   </div>
+  </div>
+ </div>  
+ <!-- Principal -->
+ 
+ 
+
+ 
+
+ </body>
+</html> 
