@@ -3,8 +3,107 @@ $(document).ready(function(e) {
 document.addEventListener("deviceready",function(){
 	$('#botonmenu').on('tap',function(){
 	navigator.vibrate(1000);
-	
 });
+$('#A').on('tap',function(){
+	navigator.vibrate(1000);
+});
+$('#B').on('tap',function(){
+	navigator.vibrate(1000);
+});
+$('#C').on('tap',function(){
+	navigator.vibrate(1000);
+});
+$('#D').on('tap',function(){
+	navigator.vibrate(1000);
+});
+$('#E').on('tap',function(){
+	navigator.vibrate(1000);
+});
+$('#F').on('tap',function(){
+	navigator.vibrate(1000);
+});
+$('#G').on('tap',function(){
+	navigator.vibrate(1000);
+});
+$('#H').on('tap',function(){
+	navigator.vibrate(1000);
+});
+$('#I').on('tap',function(){
+	navigator.vibrate(1000);
+});
+$('#J').on('tap',function(){
+	navigator.vibrate(1000);
+});
+$('#K').on('tap',function(){
+	navigator.vibrate(1000);
+});
+$('#L').on('tap',function(){
+	navigator.vibrate(1000);
+});
+$('#M').on('tap',function(){
+	navigator.vibrate(1000);
+});
+$('#N').on('tap',function(){
+	navigator.vibrate(1000);
+});
+$('#Ñ').on('tap',function(){
+	navigator.vibrate(1000);
+});
+$('#O').on('tap',function(){
+	navigator.vibrate(1000);
+});
+$('#P').on('tap',function(){
+	navigator.vibrate(1000);
+});
+$('#Q').on('tap',function(){
+	navigator.vibrate(1000);
+});
+$('#R').on('tap',function(){
+	navigator.vibrate(1000);
+});
+$('#S').on('tap',function(){
+	navigator.vibrate(1000);
+});
+$('#T').on('tap',function(){
+	navigator.vibrate(1000);
+});
+$('#U').on('tap',function(){
+	navigator.vibrate(1000);
+});
+$('#V').on('tap',function(){
+	navigator.vibrate(1000);
+});
+$('#W').on('tap',function(){
+	navigator.vibrate(1000);
+});
+$('#X').on('tap',function(){
+	navigator.vibrate(1000);
+});
+$('#Y').on('tap',function(){
+	navigator.vibrate(1000);
+});
+$('#Z').on('tap',function(){
+	navigator.vibrate(1000);
+});
+$('#1A').on('tap',function(){
+	navigator.vibrate(1000);
+});
+$('#1B').on('tap',function(){
+	navigator.vibrate(1000);
+});
+$('#1C').on('tap',function(){
+	navigator.vibrate(1000);
+});
+$('#1D').on('tap',function(){
+	navigator.vibrate(1000);
+});
+$('#1E').on('tap',function(){
+	navigator.vibrate(1000);
+});
+$('#1F').on('tap',function(){
+	navigator.vibrate(1000);
+});
+
 }); 
 });
 
